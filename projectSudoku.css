@@ -1,0 +1,120 @@
+Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: rgb(244, 172, 144);
+}
+
+
+
+.Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto;
+}
+
+.sudoku_grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,
+#SolvePuzzle {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(21, 215, 21);
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .3);
+    margin-right: 10px;
+}
+
+#GetPuzzle:hover {
+    cursor: pointer;
+}
+
+#SolvePuzzle:hover {
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: #f39c12;
+    border: 2px solid #f1c40f;
+}
+
+.box1:hover {
+    background-color: #e67e22;
+    color: black;
+}
+
+.box2 {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+}
+
+.box2:hover {
+    background-color: #2980b9;
+    color: black;
+}
+
+.box3 {
+    background-color: #2ecc71;
+    border: 2px solid #27ae60;
+}
+
+.box3:hover {
+    background-color: #27ae60;
+    color: black
+}
+
+.l {
+    border-left: 4px solid #DC143C !important;
+}
+
+.b {
+    border-bottom: 4px solid #DC143C !important;
+}
+
+.r {
+    border-right: 4px solid #DC143C !important;
+}
+
+.t {
+    border-top: 4px solid #DC143C !important;
+}
